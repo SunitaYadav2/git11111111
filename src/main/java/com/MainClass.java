@@ -37,7 +37,8 @@ public class MainClass {
         Employee emp3= new Employee("Shyam",50000);
             session.persist(emp3);//persist method doesnot return anything
         
-		
+            Employee emp4= new Employee("ram",50000);
+            session.persist(emp4);
 		
         //------------    
         session.getTransaction().commit();
